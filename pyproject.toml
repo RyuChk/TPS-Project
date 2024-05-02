@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tps"
+version = "0.1.0"
+description = ""
+authors = ["grostaco <grostaco@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "2.0.0"
+numpy = "1.24.2"
+Pillow = "9.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
